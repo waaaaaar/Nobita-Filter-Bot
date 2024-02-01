@@ -48,8 +48,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #stream feature - @NobiDeveloper
-STREAM_BIN = environ.get("STREAM_BIN", "") #Log channel
-STREAM_URL = environ.get("STREAM_URL", "")
+STREAM_BIN = environ.get("STREAM_BIN", "-1002123260711") #Log channel
+STREAM_URL = environ.get("STREAM_URL", "https://conceptual-belia-unknown2468.koyeb.app/")
 IS_STREAM = bool(STREAM_BIN and STREAM_URL)
 
 # Others
