@@ -49,7 +49,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #stream feature - @NobiDeveloper
 STREAM_BIN = environ.get("STREAM_BIN", "-1002106695370") #Log channel
-STREAM_URL = environ.get("STREAM_URL", "https://conceptual-belia-unknown2468.koyeb.app/")
+STREAM_URL = environ.get("STREAM_URL", "https://moviebro.onrender.com")
 IS_STREAM = bool(STREAM_BIN and STREAM_URL)
 
 # Others
